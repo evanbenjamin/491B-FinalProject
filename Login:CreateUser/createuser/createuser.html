@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title> Create User Account </title>
+        <link rel="stylesheet" href="stylesheet_user.css">
+    </head>
+
+    
+    <body>
+        <h1>Welcome to Liteboard</h1>
+
+        <!--Block container so its easier to move the elements inside together.  Evan-->
+        <div class="user_form">
+
+            <!--labels and input for information to be taken in by user. Evan-->
+            <label for="fname">First name</label>
+            <input type="text" id="fname" class="input_lines">
+            
+            <label for="lname">Last name</label>
+            <input type="text" id="lname"  class="input_lines">
+            
+            <label for="email">Email</label>
+            <input type="email" id="email"  class="input_lines">
+            
+            <label for="usertype">Teacher or student</label>
+            <input type="text" id="usertype"  class="input_lines">
+        
+            <label for="school">School Name</label>
+            <input type="text" id="school"  class="input_lines">
+            
+            <label for="username">Username</label>
+            <input type="text" id="username"  class="input_lines">
+            
+            <label for="password">Password</label>
+            <input type="password" id="password"  class="input_lines">
+
+            <button type="submit" id="submit"  class="input_lines">Submit</button>
+        </div>
+
+        <!--Script for javascript code, uses type module because Im importing some libraries in this script-->
+        <script type="module" src="createuser.js"></script>
+
+
+    </body>
+</html>

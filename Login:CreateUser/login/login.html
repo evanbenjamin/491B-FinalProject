@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title> Login </title>
+        <link rel="stylesheet" href="stylesheet_login.css">
+    </head>
+
+    <body>
+
+        <h1>Login</h1>
+
+        <!--Block container so its easier to move the elements inside together.  Evan-->
+        <div class="login_form">
+
+             <!--labels and input for information to be taken in by user. Evan-->
+            <label for="username">Username</label>
+            <input type="text" id="username" class="input_lines">
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" class="input_lines">
+
+             <!--Submit button so user can check if their credentials were correct. Evan-->
+            <input type="submit" value="Login" id="submitlogin" class="input_lines">
+
+            <p id="result" class="result"></p>
+        </div>
+
+
+         <!--Javascript file so it can eventually check the database to see if their credentials were correct. Evan-->
+        <script type="module" src="login.js"></script>
+    </body>
+</html>
