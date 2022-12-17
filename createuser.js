@@ -60,7 +60,7 @@ const firebaseApp = initializeApp({
     setDoc(new_user, docData);
 
 
-    setTimeout(()=>{window.location.assign("../login/login.html")}, 1000);
+    setTimeout(()=>{window.location.assign("login.html")}, 1000);
     
   });
 
